@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tingleActivity_fragHor_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:weightSum="2">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:id="@+id/tingleActivity_frag_tingle"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"/>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:id="@+id/tingleActivity_frag_thingsList"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</FrameLayout>
